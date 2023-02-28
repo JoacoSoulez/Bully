@@ -10,7 +10,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.pipeline import make_pipeline
 from sklearn.compose import make_column_transformer
 
-from cyberbullying.utils import preprocess_x
+from cyberbullying.clean import preprocess_x
 from cyberbullying.transformers import CleanDFTransformer
 
 import joblib
